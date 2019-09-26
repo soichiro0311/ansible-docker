@@ -1,0 +1,4 @@
+- hosts: local
+  tasks: 
+    - name: test
+      shell: touch test.txt
